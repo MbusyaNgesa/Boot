@@ -1,5 +1,19 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
 @media (min-width: 768px) {
   .news-input {
     width: 50%;
   }
+}
+.customize {
+  width: 50vh;
+  height: 50vh;
+}
+#map {
+  width: 350px;
+  height: 280px;
+  padding-left: 40px;
 }
